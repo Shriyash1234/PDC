@@ -1,0 +1,526 @@
+/*! Place your custom styles here */
+
+.bar .logo {
+  max-height: 60px !important;
+  margin-left: -18px !important;
+  margin-top: -18px !important;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border-bottom: 1px solid grey;
+}
+
+.homesection {
+  padding-top: 1.42857143em;
+  padding-bottom: 1.42857143em;
+}
+
+.smallpaddingtop {
+  padding-top: 3em !important;
+}
+
+.smallpaddingbottom {
+  padding-bottom: 3em !important;
+}
+
+.blog-homesection {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 1.42em !important;
+  padding-top: 1.42em !important;
+}
+
+.bg--linkedin {
+  background: #0077b5;
+  color: #ffffff;
+}
+
+.bg--youtube {
+  background: #ff0000;
+  color: #ffffff;
+}
+
+.bg--green {
+  background: #228b22;
+  color: #ffffff;
+}
+
+.btn.bg--linkedin,
+.btn.bg--youtube,
+.btn.bg--green {
+  border-color: rgba(0, 0, 0, 0) !important;
+}
+
+.btn.bg--linkedin .btn__text,
+.btn.bg--youtube .btn__text,
+.btn.bg--green .btn__text {
+  color: #fff;
+}
+
+.btn.bg--linkedin .btn__text i,
+.btn.bg--youtube .btn__text i,
+.btn.bg--green .btn__text i {
+  color: #fff;
+}
+
+.btn.bg--linkedin:hover,
+.btn.bg--youtube:hover,
+.btn.bg--green:hover {
+  opacity: 0.9;
+}
+
+.topnavlabel a,
+.topnavlabel a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.topnavlabel {
+  display: inline-block;
+  font-size: 9px;
+  font-weight: 1400;
+  letter-spacing: 0.5px;
+  color: #fff;
+  background-color: #0077b5;
+  text-transform: uppercase;
+  height: 26px;
+  min-width: 65px;
+  padding: 0 10px;
+  margin-left: 10px;
+  text-align: center;
+  border-radius: 50px;
+  position: absolute;
+  z-index: 3;
+  /* top: 1.23809524em;
+  right: 1.23809524em; */
+}
+
+.redlabel {
+  display: inline-block;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #fff;
+  opacity: 0.5;
+  background-color: #ff0000;
+  text-transform: uppercase;
+  height: 24px;
+  min-width: 42px;
+  padding: 0 10px;
+  margin-left: 10px;
+  margin-bottom: -5px;
+  text-align: center;
+  border-radius: 50px;
+  position: absolute;
+  z-index: 3;
+  /* top: 1.23809524em;
+  right: 1.23809524em; */
+}
+
+h3 a:hover,
+.h3 a:hover,
+.h3.a:hover,
+p a,
+span a,
+label a,
+p a:hover,
+span a:hover,
+label a:hover {
+  text-decoration: none !important;
+}
+
+/*.feature-4 p:last-of-type {*/
+/*  margin-bottom: 0 !important;*/
+/*}*/
+
+.credit {
+   margin-bottom: 0em !important; 
+}
+
+.feature-4 p {
+  min-height: 0px;
+}
+
+body,
+p,
+p.lead,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: #505050;
+}
+
+.bg--white p,
+.bg--white p.lead {
+  color: #505050 !important;
+}
+
+
+
+.hidegrid {
+  padding-bottom: 0em;
+}
+
+
+@media screen and (max-width: 1367px) {
+  .fac_list_zoomin {
+    zoom: 88%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bimage {
+    padding-left: 26%;
+    padding-bottom: 5%;
+    /*margin-top: -12%;*/
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .bimage {
+    padding-left: 23%;
+    padding-bottom: 5%;
+    /*margin-top: -12%;*/
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .bimage {
+    padding-left: 20%;
+    padding-bottom: 5%;
+    /*margin-top: -12%;*/
+  }
+}
+/* students main page styling */
+
+@media screen and (max-width: 767px) {
+  .stpara {
+    margin-top: -5%;
+  }
+}
+
+@media screen and (min-width: 768px)  {
+  .stpara {
+    margin-top: -13em;
+  }
+}
+
+/* @media screen and (min-width: 1024px) and (max-width: 1279px) { and (max-width: 1023px)
+  .stpara {
+    margin-top: -50%;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1365px) {
+  .stpara {
+    margin-top: -40%;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .stpara {
+    margin-top: -20%;
+  }
+} */
+
+/* styling for text left align */
+.text-left {
+  text-align: left !important;
+}
+
+/* home page welcome box style */
+
+@media screen and (max-width: 767px) {
+  .welbox {
+    margin-bottom: -87px;
+  }
+}
+/* quick link module style */
+
+@media (max-width: 767px) {
+  .quickzoom {
+    zoom: 79%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .videobg .background-image-holder {
+    opacity: 0 !important;
+  }
+
+  .youtube-background {
+    display: block;
+    z-index: 100 !important;
+  }
+}
+
+/* style for event span on home screen */
+.mylabel {
+  border-radius: 50px;
+  text-align: center;
+  padding: 0px 10px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+#myInput {
+  background-image: url("../img/search.png");
+  background-position: 10px 10px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myFac {
+  background-image: url("../img/search.png");
+  background-position: 10px 10px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 90%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 767px) {
+  #myFac {
+    background-image: url(../img/search.png);
+    background-position: 10px 10px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    right: 150px;
+    position: absolute;
+    width: 30%;
+    text-align: left;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-right: 3%;
+  }
+}
+
+/* Grid layout style */
+
+.mygridstyle {
+  padding-top: 500px;
+}
+
+.grid {
+  top:8em !important;
+}
+
+
+@media screen and (max-width: 768px) {
+  .mygridstyle {
+    padding-top: 100px;
+  }
+  
+  .grid {
+    top:12em !important;
+    
+  }
+
+  .slider {
+    max-height: 533px;
+  }
+}
+
+
+@media screen and (min-width: 1280px) and (max-width: 1364px) {
+
+  .mygridstyle {
+    padding-top: 34%;
+  }
+  
+  .grid {
+    top:8em !important;
+  }
+}
+
+
+@media screen and (min-width: 1365px) and (max-width: 1439px) {
+
+  .mygridstyle {
+    padding-top: 340px;
+  }
+  
+  .grid {
+    top:8em !important;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1535px) {
+
+  .mygridstyle {
+    padding-top: 35%;
+  }
+  
+  .grid {
+    top:8em !important;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .mygridstyle {
+    padding-top: 560px;
+  }
+  
+}
+@media screen and (min-width: 1900px) {
+  .mygridstyle {
+    padding-top: 81%;
+  }
+  
+}
+
+@media screen and (max-width: 1025px) {
+
+  .hidegrid {
+    display: none;
+  }
+  .bar .logo {
+    max-height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+
+  .eventslide {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1364px)  {
+
+
+  .hidegrid {
+    padding-bottom: 8em;;
+  }
+}
+
+
+
+.fac_box{
+  height: 235px !important;
+}
+
+.ALgreen{
+  font-size: 1.3em !important;
+  color: #58bc32 !important;
+}
+
+.ALblue{
+  font-size: 1.3em !important;
+  color: #4187c4 !important;
+}
+
+.ALred{
+  font-size: 1.3em !important;
+  color: #e26b58 !important;
+}
+
+.fac_box
+{	
+
+
+    display: block; /* Fallback for non-webkit */
+    display: -webkit-box;
+ 
+    height: 220px;
+   
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;    
+    border: 1px solid #ececec !important;
+    border-radius: 0 0 6px 6px !important;
+
+}
+.fac_box > h4 > a{
+  color: #4a90e2 ! important;
+}
+
+
+figure {
+	height: 227px;
+	max-width: 600px;
+	margin: 3% auto;
+}
+
+@media(min-width: 768px) {
+   
+	figure {
+		height: 227px;
+		margin: 3% auto;
+	}
+   
+}
+
+.aac_alc_image{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+.aac_alc_image:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.aac_alc_box{
+  height:400px;
+}
+
+.stud_img {
+  border: 1px solid #ddd;
+  border-radius: 4%;
+  padding: 5%;
+  width:100%;
+  height:100%;
+  
+}
+
+.stud_img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* custom style for footer */
+.myfooter {
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
+}
+
+.bottom_row {
+  margin-top: 1.5em !important;
+}
+
+
+/*quick links btech first year*/
+.space_p{
+    margin-right:20px;
+    margin-left:10px;
+}
+.neeev_pic {
+  border-radius: 5%;
+  border: 10px solid #c4c5c7;
+}
