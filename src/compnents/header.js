@@ -1,45 +1,94 @@
-import * as React from "react";
+import React, { useState } from "react";
+import "./CSS/navbar.css";
+import {
+  FaFacebookSquare,
+  FaInstagramSquare,
+  FaYoutubeSquare,
+} from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
 
-// importing material UI components
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
-import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
+import { NavLink } from "react-router-dom";
 
-export default function Header() {
-return (
-	<AppBar position="static">
-		<Toolbar>
-		{/*Inside the IconButton, we
-		can render various icons*/}
-		<IconButton
-			size="large"
-			edge="start"
-			color="inherit"
-			aria-label="menu"
-			sx={{ mr: 2 }}
-		>
-			{/*This is a simple Menu
-			Icon wrapped in Icon */}
-			<MenuIcon />
-		</IconButton>
-		{/* The Typography component applies
-		default font weights and sizes */}
+const Navbar = () => {
+  const [showMediaIcons, setShowMediaIcons] = useState(false);
+  return (
+    <>
+      <nav className="main-nav">
+        {/* 1st logo part  */}
+        <div className="logo">
+          <h2>
+            <span>PDC </span>
+            <span>Council</span>
+          </h2>
+        </div>
 
-		<Typography variant="h6"
-			component="div" sx={{ flexGrow: 1 }}>
-			GeeksforGeeks Header
-		</Typography>
-		<Button color="inherit">About</Button>
-        <Button color="inherit">Team</Button>
-        <Button color="inherit">Past Secretaries</Button>
-        <Button color="inherit">Events</Button>
-        <Button color="inherit">Placement</Button>
-        <Button color="inherit">Clubs</Button>
-		</Toolbar>
-	</AppBar>
-);
-}
+        {/* 2nd menu part  */}
+        <div
+          className={
+            showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
+          }>
+          <ul>
+            <li>
+              <p>About</p>
+            </li>
+            <li>
+                <p>Team</p>
+            </li>
+            <li>
+                <p>Clubs</p>
+            </li>
+            <li>
+                <p>Past Secretaries</p>
+            </li>
+            <li>
+                <p>Events</p>
+            </li>
+            <li>
+                <p>Material</p>
+            </li>
+          </ul>
+        </div>
+
+        {/* 3rd social media links */}
+        {/* <div className="social-media">
+          <ul className="social-media-desktop">
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+                target="_thapa">
+                <FaFacebookSquare className="facebook" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/thapatechnical/"
+                target="_thapa">
+                <FaInstagramSquare className="instagram" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+                target="_thapa">
+                <FaYoutubeSquare className="youtube" />
+              </a>
+            </li>
+          </ul>
+        </div> */}
+        <div className="hamburger-menu">
+            <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+              <GiHamburgerMenu />
+            </a>
+        </div>
+      </nav>
+
+      {/* hero section  */}
+      {/* <section className="hero-section">
+        <p>Welcome to </p>
+        <h1>Thapa Technical</h1>
+      </section> */}
+    </>
+  );
+};
+
+export default Navbar;
