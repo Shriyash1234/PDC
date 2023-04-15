@@ -5,7 +5,7 @@ function Footer2(){
     return(
         <div className='footer'>
             <div className='row'>
-                <img className='iitgn-image' src={require('../compnents/Images/iitgn.png')}/>
+                <img className='iitgn-image' src={require('../components/Images/iitgn.png')}/>
                 <h3>PDC Council</h3>
             </div>
             <div className='row'>
