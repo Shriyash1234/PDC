@@ -32,16 +32,16 @@ const Navbar = () => {
           }>
           <ul>
             <li>
-              <Link to="/about"><p>About</p></Link>
+              <Link to="/PDC/about"><p>About</p></Link>
             </li>
             <li>
-              <Link to="/team"><p>Team</p></Link>
+              <Link to="/PDC/team"><p>Team</p></Link>
             </li>
             <li>
-              <Link to="/clubs"><p>Clubs</p></Link>
+              <Link to="/PDC/clubs"><p>Clubs</p></Link>
             </li>
             <li>
-              <Link to="/team"><p>Past Secretaries</p></Link>
+              <Link to="/PDC/team"><p>Past Secretaries</p></Link>
             </li>
             <li>
               <Link to="/events"><p>Events</p></Link>

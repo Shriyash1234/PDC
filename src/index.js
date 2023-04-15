@@ -12,7 +12,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/PDC" element={<Home/>} />
+        <Route index path="/PDC" element={<About/>} />
         <Route path="/PDC/team" element={<Team />} />
         <Route path="/PDC/about" element={<About />} />
         <Route path="/PDC/login" element={<Login />} />
