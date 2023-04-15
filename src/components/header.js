@@ -6,10 +6,13 @@ import {
   FaYoutubeSquare,
 } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
+import {Link } from "react-router-dom";
 
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  var ConditionalLink = isAuthenticated? '/PlacementMaterial' : '/login';
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
     <>
@@ -29,22 +32,22 @@ const Navbar = () => {
           }>
           <ul>
             <li>
-              <p>About</p>
+              <Link to="/about"><p>About</p></Link>
             </li>
             <li>
-                <p>Team</p>
+              <Link to="/team"><p>Team</p></Link>
             </li>
             <li>
-                <p>Clubs</p>
+              <Link to="/clubs"><p>Clubs</p></Link>
             </li>
             <li>
-                <p>Past Secretaries</p>
+              <Link to="/team"><p>Past Secretaries</p></Link>
             </li>
             <li>
-                <p>Events</p>
+              <Link to="/events"><p>Events</p></Link>
             </li>
             <li>
-                <p>Material</p>
+              <Link to={ConditionalLink}><p>Placement Material</p></Link>
             </li>
           </ul>
         </div>

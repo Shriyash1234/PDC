@@ -1,78 +1,29 @@
-import React from "react";
-import {
-Box,
-Container,
-Row,
-Column,
-FooterLink,
-Heading,
-} from "./FooterStyles";
+import react from 'react'
 import './CSS/footer.css'
 
-const Footer = () => {
-return (
-	<Box>
-	{/* <h1 style={{ color: "green",
-				textAlign: "center",
-				marginTop: "-50px" }}>
-		GeeksforGeeks: A Computer Science Portal for Geeks
-	</h1> */}
-	<Container className="footer">
-		<Row>
-		<Column>
-			<Heading>About Us</Heading>
-			<FooterLink href="#">Aim</FooterLink>
-			<FooterLink href="#">Vision</FooterLink>
-			<FooterLink href="#">Testimonials</FooterLink>
-		</Column>
-		<Column>
-			<Heading>Services</Heading>
-			<FooterLink href="#">Writing</FooterLink>
-			<FooterLink href="#">Internships</FooterLink>
-			<FooterLink href="#">Coding</FooterLink>
-			<FooterLink href="#">Teaching</FooterLink>
-		</Column>
-		<Column>
-			<Heading>Contact Us</Heading>
-			<FooterLink href="#">Uttar Pradesh</FooterLink>
-			<FooterLink href="#">Ahemdabad</FooterLink>
-			<FooterLink href="#">Indore</FooterLink>
-			<FooterLink href="#">Mumbai</FooterLink>
-		</Column>
-		<Column>
-			<Heading>Social Media</Heading>
-			<FooterLink href="#">
-			<i className="fab fa-facebook-f">
-				<span style={{ marginLeft: "10px" }}>
-				Facebook
-				</span>
-			</i>
-			</FooterLink>
-			<FooterLink href="#">
-			<i className="fab fa-instagram">
-				<span style={{ marginLeft: "10px" }}>
-				Instagram
-				</span>
-			</i>
-			</FooterLink>
-			<FooterLink href="#">
-			<i className="fab fa-twitter">
-				<span style={{ marginLeft: "10px" }}>
-				Twitter
-				</span>
-			</i>
-			</FooterLink>
-			<FooterLink href="#">
-			<i className="fab fa-youtube">
-				<span style={{ marginLeft: "10px" }}>
-				Youtube
-				</span>
-			</i>
-			</FooterLink>
-		</Column>
-		</Row>
-	</Container>
-	</Box>
-);
-};
-export default Footer;
+function Footer2(){
+    return(
+        <div className='footer'>
+            <div className='row'>
+                <img className='iitgn-image' src={require('../components/Images/iitgn.png')}/>
+                <h3>PDC Council</h3>
+            </div>
+            <div className='row'>
+                <h2>Explore</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+            </div>
+            <div className='row'>
+                <h2>Contact us</h2>
+                <p>Facebook</p>
+                <p>Instgram</p>
+                <p>Twitter</p>
+                <p>Linkedin</p>
+            </div>
+            <div className='row'>
+                <h2>Address</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+            </div>
+        </div>
+    )
+}
+export default Footer2

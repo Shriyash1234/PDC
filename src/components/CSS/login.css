@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+.login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15vh;
+    background-color: #eee;
+    height:70vh;
+    aspect-ratio: 0.8/1;
+    border-radius: 15px;
+}
+.email{
+    font-family: Raleway,sans-serif;
+    text-align: center;
+    padding: 5vh 5vh;
+    font-size: 4rem;
+}
+.Google-login{
+    padding-top: 5vh;
+    padding: 0px 15px;
+}
+.user-image{
+    height: 150px;
+    align-self: center;
+    padding: 10px;
+    padding-left: 17vh;
+}
+@media all and (max-width:768px) {
+    .rectangle{
+        height: 500px;
+    }
+    .email{
+        font-size: 3rem;
+    }
+    .user-image{
+        padding-left: 15vh;
+    }
+}
+@media all and (max-width:606px) {
+    .rectangle{
+        height: 400px;
+    }
+    .user-image{
+        padding-left: 10vh;
+    }
+}

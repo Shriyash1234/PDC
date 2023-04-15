@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './App';
 import Team from './components/team';
+import About from './components/about';
+import Login from './components/login'
+import Pmaterial from './components/pmaterial'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 export default function App() {
@@ -11,6 +14,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/team" element={<Team />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/PlacementMaterial" element={<Pmaterial />} />
       </Routes>
     </BrowserRouter>
   );

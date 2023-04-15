@@ -1,0 +1,48 @@
+.container{
+    /* display: flex;
+    justify-content: space-between; */
+    /* background: url('lal-minar.jpg'); */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    position:relative;
+    top: 64.1px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/lalMinar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    font-family: sans-serif;
+}
+
+.abouttitle{
+    /* margin-top: 10vh; */
+    font-weight: bold;
+    color: white;
+    font-size: 4rem;
+}
+.container p{
+    /* margin: 14%; */
+    /* margin-top: 5%; */
+    margin-left: 12%;
+    margin-right: 10%;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.aboutus{
+    /* border: 1px solid antiquewhite;
+    background-color: #F0F0F0; */
+}
+
+.pdcimage{
+    
+}
+/* 
+img{
+    object-fit: contain;
+    width: 800px;
+} */

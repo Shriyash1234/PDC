@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import Header from './header'
+import Footer from './footer'
 import './CSS/team.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
@@ -92,6 +93,7 @@ function Team(){
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

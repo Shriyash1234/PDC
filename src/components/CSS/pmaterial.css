@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+.Prep-Mat{
+    padding-top: 150px;
+    padding-bottom: 70px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+.prep-heading{
+    font-size: 4rem;
+    font-family: Raleway,sans-serif;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+.description{
+    font-family:Montserrat,sans-serif;
+    line-height: 3.5rem;
+}
+.gsheet{
+    margin-top: 3vh;
+    padding: 2vh;
+    font-size: 3rem;
+    background-color: #00ac47;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+}
+.blog-heading{
+    font-size: 4rem;
+    font-family: Raleway,sans-serif;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+.blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.rectangle2{
+    width:400px;
+    height:300px;
+    margin: 20px;
+    background-color: #eee;
+    border-radius: 15px;
+}
+.blog-img{
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+.blog-desc,.blog-person{
+    color: #000;
+    text-align: left;
+    padding: 10px 15px;
+    font-family: Raleway,sans-serif;
+}
+.blog-person{
+    font-size: 2rem;
+}
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+iframe{
+    margin: 20px 0px;
+}
+@media all and (max-width:991px) {
+    iframe{
+        width:410px;
+        height: 240px;
+    }
+}
+@media all and (max-width:479px) {
+    iframe{
+        width:350px;
+        height: 200px;
+    }
+}
