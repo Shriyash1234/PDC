@@ -12,7 +12,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  var ConditionalLink = isAuthenticated? '/PlacementMaterial' : '/login';
+  var ConditionalLink = isAuthenticated? '/PDC/PlacementMaterial' : '/PDC/login';
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
     <>
@@ -44,7 +44,7 @@ const Navbar = () => {
               <Link to="/PDC/team"><p>Past Secretaries</p></Link>
             </li>
             <li>
-              <Link to="/events"><p>Events</p></Link>
+              <Link to="/PDC/events"><p>Events</p></Link>
             </li>
             <li>
               <Link to={ConditionalLink}><p>Placement Material</p></Link>
