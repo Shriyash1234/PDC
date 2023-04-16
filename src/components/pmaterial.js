@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./header";
 import Footer from "./footer";
 import "./CSS/pmaterial.css";
+import {Link } from "react-router-dom";
 
 function Pmaterial(){
     return(
@@ -11,7 +12,7 @@ function Pmaterial(){
                     <h1 className="prep-heading">Prep MAT</h1>
                     <h3 className="description">This Prep material consists of a comprehensive set of resources that can help students prepare for various aspects of the job placement process. This includes study materials, mock tests, and interview tips that can assist students in enhancing their knowledge, skills, and confidence in various areas of interest.</h3>
                     <h3 className="description">With this Prep material, students can gain a competitive edge in the job market and increase their chances of landing their dream job. These resources are carefully curated to help students develop their professional skills, hone their interviewing abilities, and gain a better understanding of the requirements of various industries.</h3>
-                    <div className="gsheet">Spreadsheet</div>
+                    <Link target="_blank" to="https://docs.google.com/spreadsheets/d/17pJHhCqJD4KutJ1j7gN4mP3La_lGWE3Ku3U9KA44AuM/edit#gid=374165397"><div className="gsheet">Spreadsheet</div></Link>
                 </section>
                 <section className="blogs">
                     <h1 className="blog-heading">Blogs</h1>
