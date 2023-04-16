@@ -41,6 +41,25 @@
 .pdcimage{
     
 }
+.clubs{
+    background-image: none;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+h1 {
+    border-bottom: solid 2px #106470;
+    padding-bottom: .3em;
+}
+.club-desc{
+    color: #000 !important;
+}
+Address,a{
+    font-size: 2rem;
+    color: #000;
+    font-weight: 300;
+}
 /* 
 img{
     object-fit: contain;

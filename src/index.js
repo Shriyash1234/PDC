@@ -7,6 +7,7 @@ import About from './components/about';
 import Login from './components/login'
 import Pmaterial from './components/pmaterial'
 import Past from './components/past'
+import Clubs from './components/clubs'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/PDC/login" element={<Login />} />
         <Route path="/PDC/PlacementMaterial" element={<Pmaterial />} />
         <Route path="/PDC/PastSecretaries" element={<Past />} />
+        <Route path="/PDC/Clubs" element={<Clubs />} />
       </Routes>
     </BrowserRouter>
   );
