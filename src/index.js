@@ -6,6 +6,7 @@ import Team from './components/team';
 import About from './components/about';
 import Login from './components/login'
 import Pmaterial from './components/pmaterial'
+import Past from './components/past'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/PDC/about" element={<About />} />
         <Route path="/PDC/login" element={<Login />} />
         <Route path="/PDC/PlacementMaterial" element={<Pmaterial />} />
+        <Route path="/PDC/PastSecretaries" element={<Past />} />
       </Routes>
     </BrowserRouter>
   );

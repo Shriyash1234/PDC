@@ -46,3 +46,9 @@ img{
     object-fit: contain;
     width: 800px;
 } */
+@media all and (max-width:606px){
+    .container{
+        height: 120vh;
+        background-attachment:local;
+    }
+}

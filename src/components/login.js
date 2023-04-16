@@ -30,7 +30,7 @@ function Login() {
                 setIsAuthenticated(true);
                 SetGmail(data.email);
                 SetGname(data.family_name + data.given_name);
-                navigate("/PlacementMaterial");
+                navigate("/PDC/PlacementMaterial");
               }}
               onReject={(err) => {
                 console.log(err);

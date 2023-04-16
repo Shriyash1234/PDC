@@ -41,7 +41,7 @@ const Navbar = () => {
               <Link to="/PDC/clubs"><p>Clubs</p></Link>
             </li>
             <li>
-              <Link to="/PDC/team"><p>Past Secretaries</p></Link>
+              <Link to="/PDC/PastSecretaries"><p>Past Secretaries</p></Link>
             </li>
             <li>
               <Link to="/PDC/events"><p>Events</p></Link>
