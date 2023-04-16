@@ -1,0 +1,9 @@
+.container{
+    width: 80%;
+    margin: 0px auto;
+    
+}
+h1 {
+    border-bottom: solid 2px #106470;
+    padding-bottom: .3em;
+}
