@@ -42,7 +42,7 @@
     
 }
 .clubs{
-    background-image: none;
+    background-image: none !important;
 }
 .container{
     width: 80%;
