@@ -6,7 +6,7 @@
     padding-top:5vh;
     padding-bottom: 3vh;
     width: 100vw;
-    background-color: #eee;
+    background-color: #F0F0F0;
     color: #000;
     position: relative;
     display: flex;
@@ -30,3 +30,44 @@ p{
     width: 220px;
     text-align: center;
 }
+/* .margin-i{
+    margin-right: 100px;
+} */
+
+.row h3{
+    margin-left: 20px;
+}
+
+.facebook-hai, 
+.linkedin-hai,
+.instagram-hai{
+  display: flex;
+  justify-content: space-between;
+}
+.social-handles-margin{
+  margin-bottom: 10px;
+}
+.brands{
+    color:#000;
+    border-radius:10%;
+    background-color: #fff;
+    margin-left: 1.5vw;
+    padding: 0.2vw;
+    border:2px solid #fff;
+  }
+  .brands:hover{
+    color: #fff;
+    border:2px solid #6c63f5;
+    background-color: #6c63f5;
+  }
+  
+  .social-handles-margin a {
+    font-size: 1.8rem;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .social-handles-margin a:hover {
+    color: #4e43eb;
+    text-decoration: none;
+  }

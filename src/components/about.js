@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "./header";
-import Footer from './footer'
-import './CSS/about.css'
-import { Container, Row, Col } from "react-bootstrap";
+import Footer from './footer';
+import './CSS/about.css';
+// import { Container, Row, Col } from "react-bootstrap";
 // import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 function About() {
     return (
